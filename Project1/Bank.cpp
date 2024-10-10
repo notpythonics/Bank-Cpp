@@ -30,7 +30,7 @@ void Bank::AddAccount()
 	(name == Bank::word_for_generated_name ? Account{ number, "user"} : Account{number, name});
 }
 
-void Bank::Print() {
+void Bank::Print() const {
 	/*for (size_t i{}; i < m_accounts.size(); ++i) {
 		std::cout << m_accounts[i];
 	}*/
